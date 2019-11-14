@@ -48,7 +48,7 @@
             break;
 
         case 'departamentolistar':
-
+            \FITCHEF\includes\Seguranca::restritoAdm();
             $obj = new \FITCHEF\API\DepartamentoListar;
             $lista = $obj->lista;
             $view = "lista-departamento.php";
