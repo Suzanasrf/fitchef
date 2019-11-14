@@ -1,0 +1,60 @@
+.barra{
+    height: 100px;
+    background-color: #93367C !important;
+}
+
+body {
+    font-family: monospace;
+  }
+
+.carousel-item {
+    height: 500px 
+}
+
+.card{
+    padding: ;
+
+
+
+}
+
+
+.destaque{
+    text-align: center;
+    padding: 30px;
+}
+
+.texto{
+    text-align: center;
+    font-family: monospace;
+}
+
+#logo{
+    border-radius: 600px;
+    width:50px;
+    height:50px;
+    
+
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    background-color:#28a745;
+    height:auto;
+    padding-top:14px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.titulo-quemsomos{
+    text-align: center;
+}
+
+.nav-item{
+    padding: 15px;;
+}
+
