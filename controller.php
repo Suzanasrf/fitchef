@@ -1,4 +1,5 @@
 <?php 
+    session_start();
     require "includes/autoload.php";
     //capturando os dados da URL
     // ex.:admin/departamento/cadastrar/listar
@@ -83,10 +84,50 @@
             $obj = new \FITCHEF\API\ProdutoVisualizar;
             $produto = $obj->dados;
             $view = "visualiza-produto.php";
-            break;          
- 
-         case 'home':
+            break;   
+        
+        case 'usuariocadastrar':
+            
+            $obj = new \FITCHEF\API\UsuarioCadastrar;
+            $msg = $obj->msg;
+            $view = "form-usuario.php";
+            break;
 
+        case 'usuariolistar':
+
+            $obj = new \FITCHEF\API\UsuarioListar;
+            $lista = $obj->lista;
+            $view = "lista-usuario.php";
+            break;
+
+        case 'usuariovisualizar':
+
+            $obj = new \FITCHEF\API\UsuarioVisualizar;
+            $usuario = $obj->dados;
+            $view = "visualiza-usuario.php";
+            break;  
+    
+            
+
+        case 'loginadm':
+            $obj = new \FITCHEF\API\UsuarioLogar;
+            $msg = $obj->msg;
+            $view ="form-login-adm.php";
+            break;
+
+
+            
+        case 'paineladm':
+            $view ="painel-adm.php";
+            break;   
+           
+        case 'painellogoff';
+            $obj = new \FITCHEF\API\UsuarioLogoff;
+            $view = "form-login-adm.php";
+            break;     
+     
+ 
+        case 'home':
             $view = "home.php";
             break;            
     

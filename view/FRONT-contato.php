@@ -1,5 +1,5 @@
 <?php require_once "FRONT-header.php" ?>
-<BR><BR>
+
 
 <div class="container">
     <div class="row">

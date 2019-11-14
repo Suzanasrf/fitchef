@@ -1,4 +1,5 @@
-<?php include "view/mensagem.php"; ?>
+
+<?php include "mensagem.php"; ?>
 </div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
