@@ -6,14 +6,15 @@
   <title>Fit Chef - Início</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/fontawesome/all.css">
+  <link rel="stylesheet" href="../fontawesome/css/all.css">
   <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
   <header>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success barra">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success barra">
+    
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,7 +37,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="FRONT-cardapio.php">Cardápio do dia</a>
+            <a class="nav-link" href="FRONT-cardapio.php">Cardápio da Semana</a>
           </li>
 
           <li class="nav-item">
