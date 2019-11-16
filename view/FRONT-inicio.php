@@ -29,7 +29,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem; height: 28rem;">
           <img src="../img/1.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Escolha</h5>
@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem; height: 28rem">
           <img src="../img/2.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Aguarde chegar</h5>
@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem; height: 28rem">
           <img src="../img/3.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Desfrute</h5>
@@ -80,9 +80,9 @@
 
 
 <div class="container">
-  <div class="row">
+  <div class="row ">
     <div class="col-sm-3">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 15rem; height: 20rem;">
         <img src="../img/mignon.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Escolha</h5>
@@ -91,7 +91,7 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 15rem; height: 20rem;">
         <img src="../img/porco.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Escolha</h5>
@@ -100,7 +100,7 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 15rem; height: 20rem;">
         <img src="../img/salmao.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Aguarde chegar</h5>
@@ -109,7 +109,7 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 15rem; height: 20rem;">
         <img src="../img/quinoa.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Desfrute</h5>
@@ -122,31 +122,69 @@
 <br>
 <br>
 <br>
-<div class="destaque">
-  <h2>Central de Atendimento</h2>
-</div>
+
+<div class="horizontal_dotted_line"></div>
+<br>
+<br>
+
 
 <div class="container">
   <div class="row">
 
-    <div class="col-sm-4">
-      <i class="far fa-envelope fa-3x">  Envie um email </i>
-      <p> contato@fitchef.com
-        
-      </p>
+    <div class="col-sm-6">
+      <div class="container ">
+        <div class="row">
+          <h2> Central de atendimento </h2>
+          <br>
+          <br>
+          <div class="col-sm-4 ">
+            <i class="far fa-envelope fa-3x"></i>
+            <p>Nos mande um email:<br>
+              fitchef@email.com</p>
+
+          </div>
+          <div class="col-sm-4 ">
+            <i class="fas fa-phone-alt fa-3x"></i>
+            <p>Ligue para nós<br>
+              (21)666-420-666</p>
+          </div>
+          <div class="col-sm-4 ">
+            <i class="fab fa-whatsapp fa-3x"></i>
+            <p>Chama no zap bb <br>
+              (21)666-420-666</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-4">
-      <i class="far fa-envelope"></i>
-    </div>
-    <div class="col-sm-4">
-      <i class="far fa-envelope"></i>
+    <div class="col-sm-6">
+      <div class="container sociais">
+
+        <h2> Redes sociais </h2>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <i class="fab fa-instagram fa-3x"></i>
+
+
+          </div>
+          <div class="col-sm-6">
+            <i class="fas fa-phone-alt fa-3x"></i>
+
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
   </div>
 </div>
 
+<br>
+<br>
+<div class="horizontal_dotted_line"></div>
 
-
-
+<br><br><br><br><br><br><br><br>
 
 
 

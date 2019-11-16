@@ -57,3 +57,11 @@ footer{
     max-height: 500px;
 }
 
+.sociais{
+    text-align: center;
+}
+
+.horizontal_dotted_line{
+    border-bottom: 1px dotted black;
+    width: 100%;
+  } 
