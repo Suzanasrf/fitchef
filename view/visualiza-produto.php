@@ -1,4 +1,4 @@
-<?php include "view/header.php" ?>
+<?php include "FRONT-header.php" ?>
 <form class="form-horizontal" method="post" action="cadastrar">
     <fieldset>
 

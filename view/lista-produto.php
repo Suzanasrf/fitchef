@@ -1,4 +1,6 @@
-<?php include "view/header.php" ?>
+<?php include "header.php" ?>
+<br><br><br><br><br>
+
 <table class="table">
     <thead>
         <tr>

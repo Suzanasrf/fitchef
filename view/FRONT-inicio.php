@@ -10,7 +10,7 @@
       <img src="../img/veggies2.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../img/veggies3.jpg" class="d-block w-100" alt="...">
+      <img src="../img/marmita2.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -29,8 +29,8 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
-        <div class="card" style="width: 18rem; height: 28rem;">
-          <img src="../img/1.png" class="card-img-top" alt="...">
+        <div class="card" style="width: 18rem; height: 20rem;">
+          <img src="../img/1.png" style="width:100%; height: 50%;" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Escolha</h5>
             <p class="card-text">Temos uma grande variedade de pratos, mas se preferir pode montar o seu!</p>
@@ -38,8 +38,8 @@
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="card" style="width: 18rem; height: 28rem">
-          <img src="../img/2.png" class="card-img-top" alt="...">
+        <div class="card" style="width: 18rem; height: 20rem">
+          <img src="../img/2.png" style="width:100%; height: 50%;" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Aguarde chegar</h5>
             <p class="card-text">Vamos trabalhar o melhor possível para estar na sua casa bem rapidinho.</p>
@@ -47,8 +47,8 @@
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="card" style="width: 18rem; height: 28rem">
-          <img src="../img/3.png" class="card-img-top" alt="...">
+        <div class="card" style="width: 18rem; height: 20rem">
+          <img src="../img/3.png" style="width:100%; height: 50%;" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Desfrute</h5>
             <p class="card-text">Alimentos saudáveis onde você estiver, para uma vida de qualidade!</p>
@@ -68,7 +68,7 @@
 <br>
 <br>
 
-<img src="../img/fitfood.jpg" class="imgestatica">
+<img src="../img/marmita2.jpg" class="imgestatica">
 
 <br>
 <br>
@@ -156,9 +156,10 @@
         </div>
       </div>
     </div>
+    
     <div class="col-sm-6">
       <div class="container sociais">
-
+  
         <h2> Redes sociais </h2>
 
         <div class="row">
@@ -184,7 +185,7 @@
 <br>
 <div class="horizontal_dotted_line"></div>
 
-<br><br><br><br><br><br><br><br>
+
 
 
 
