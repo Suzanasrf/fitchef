@@ -72,6 +72,6 @@
 </div>
 </div>
 <br><br>
-<?php require_once "FRONT-footer.php" ?>
+<?php include "FRONT-footer.php" ?>
 
     

@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
+
   <header>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark barra">
@@ -28,36 +28,26 @@
 
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
-          <li class="nav-item px-3">
-            <a class="nav-link" href="FRONT-inicio.php">Início</a>
+          <li class="nav-item">
+            <a class="nav-link" href="FRONT-inicio.php">Meus pedidos</a>
           </li>
 
-          <li class="nav-item px-3">
-            <a class="nav-link" href="FRONT-seupedido.php">Monte seu prato</a>
+          <li class="nav-item">
+            <a class="nav-link" href="FRONT-seupedido.php">Minha conta</a>
           </li>
 
-          <li class="nav-item px-3">
-            <a class="nav-link" href="FRONT-cardapio.php">Cardápio da Semana</a>
+          <li class="nav-item">
+            <a class="nav-link" href="FRONT-cardapio.php">Alterar dados</a>
           </li>
 
-          <li class="nav-item px-3">
-            <a class="nav-link" href="FRONT-quemsomos.php">Quem somos</a>
-          </li>
-
-          <li class="nav-item px-3">
-            <a class="nav-link" href="FRONT-contato.php">Contato</a>
-          </li>
-
-          <li class="nav-item px-3 ml-3">
-            <a class="nav-link" href="FRONT-logincadastro.php"><i class="fas fa-user-circle fa-2x"></i></a>
-          </li>
-
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Buscar no site" aria-label="Search">
-          <button type="button" class="btn btn-light">Buscar</button>
+          
         </form>
       </div>
     </nav>
-  </header>
+  </header> 
+  <body>
+
   
+
+<?php include "footer.php"?>
+   

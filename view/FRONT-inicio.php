@@ -128,7 +128,7 @@
 <br>
 
 
-<div class="container">
+<div class="container sociais">
   <div class="row">
 
     <div class="col-sm-6">
@@ -158,7 +158,7 @@
     </div>
     
     <div class="col-sm-6">
-      <div class="container sociais">
+      <div class="container">
   
         <h2> Redes sociais </h2>
 
@@ -169,7 +169,7 @@
 
           </div>
           <div class="col-sm-6">
-            <i class="fas fa-phone-alt fa-3x"></i>
+          <i class="fab fa-facebook-square fa-3x"></i>
 
           </div>
 
