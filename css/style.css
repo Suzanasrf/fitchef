@@ -34,13 +34,13 @@ body {
     text-align: center;
 }
 
-footer{
-    width: 100%;
-    background-color: #93367C;
-    height:150px;
-    padding-top:14px;
-    padding-left:10px;
-    padding-right:10px;
+
+
+
+.rodape{
+    background-color:  #93367C ;
+    color: silver;
+    height: 300px ;
 }
 
 .titulo-quemsomos{
@@ -59,6 +59,7 @@ footer{
 .sociais{
     text-align: center;
     margin-bottom: 30px;
+    
 }
 
 .horizontal_dotted_line{
@@ -74,12 +75,13 @@ footer{
 }
 
 .imgproduto{
-    width: 545px;
+    width: 100%;
+    max-width: 545px;
     height: 359px;    
 }
 
 .produtobox{
-    margin-top: 200px;
+    margin-top: 30px;
     margin-bottom: 100px;
 }
 
@@ -103,3 +105,57 @@ footer{
     margin-top: 100px;
     margin-bottom: 50px;
 }
+
+.carrinhobox{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
+   
+}
+
+.rowcarrinho col{
+    border: 1px solid silver;
+    margin-left: 0px;
+    margin-left: 0px;
+}
+
+.cardapiotitulo{
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+.prato-feito-opcao{
+    text-decoration: none;
+    color:black;
+}
+
+.prato-feito-opcao:hover{
+    color:black;
+
+}
+
+.boxingrediente{
+    margin-bottom: 100px;
+    
+}
+
+.product-img{
+    width: 100%;
+    max-width: 545px;
+    height: 359px; 
+    margin-bottom: 60px;  
+}
+
+.titulofaixa{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+
+
+

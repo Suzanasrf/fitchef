@@ -14,7 +14,7 @@
 <!-- Text input-->
   <div class="form-group">
     <label class="col-md-4 control-label" for="nome">Nome</label>  
-    <div class="col-md-5">
+    <div class="col-md-9">
     <input id="nome" name="nome" type="text" placeholder="" class="form-control input-md" required="">
       
     </div>
@@ -23,7 +23,7 @@
 <!-- Text input-->
   <div class="form-group">
     <label class="col-md-4 control-label" for="email">E-mail</label>  
-    <div class="col-md-5">
+    <div class="col-md-9">
     <input id="email" name="email" type="text" placeholder="" class="form-control input-md" required="">
     <span class="help-block"> </span>  
     </div>
@@ -32,7 +32,7 @@
 <!-- Text input-->
   <div class="form-group">
     <label class="col-md-4 control-label" for="assunto">Assunto</label>  
-    <div class="col-md-5">
+    <div class="col-md-9">
     <input id="assunto" name="assunto" type="text" placeholder="" class="form-control input-md" required="">
       
     </div>
@@ -41,7 +41,7 @@
 <!-- Textarea -->
   <div class="form-group">
     <label class="col-md-4 control-label" for="mensagem">Mensagem</label>
-    <div class="col-md-5">                     
+    <div class="col-md-9">                     
       <textarea class="form-control" id="mensagem" name="mensagem"></textarea>
     </div>
   </div>

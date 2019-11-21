@@ -1,5 +1,9 @@
 <?php include "FRONT-header.php" ?>
-
+<div class="card titulofaixa">
+      <div class="card-body">
+        Prato fitchef
+      </div>
+    </div>
 <div class="container produtobox">
   <div class="row">
     <div class="col-sm-6">
