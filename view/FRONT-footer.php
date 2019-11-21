@@ -38,12 +38,12 @@
       <h2 class="atendimento"> Redes Sociais </h2>
 
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-6 faceinsta">
             <i class="fab fa-instagram fa-3x"></i>
 
 
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 faceinsta">
           <i class="fab fa-facebook-square fa-3x"></i>
 
           </div>

@@ -51,6 +51,10 @@ body {
     padding: 15px;;
 }
 
+.navbar-collapse{
+    background-color:  #93367C;
+}
+
 .imgestatica{
     width: 100%;
     max-height: 500px;
@@ -86,8 +90,13 @@ body {
 }
 
 .atendimento{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
+
+.faceinsta{
+    padding: 15px;
+}
+
 
 .pricequant{
     text-align: center;

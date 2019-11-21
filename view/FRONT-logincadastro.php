@@ -7,7 +7,7 @@
 
 	<div class="row">
 
-		<div class="col-6">
+		<div class="col-sm-6">
 
 			<form class="form-horizontal">
 			<fieldset>
@@ -91,7 +91,7 @@
 
 			</div>
 
-			<div class="col-6">
+			<div class="col-sm-6">
 			<form class="form-horizontal">
 			<fieldset>
 
