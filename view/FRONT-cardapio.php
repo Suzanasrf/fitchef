@@ -1,5 +1,6 @@
 <?php include "FRONT-header.php" ?>
 
+<!-- Alguma coisa -->
 
 <div class="cardapiotitulo">
   <h1>Cardápio da semana</h1>
