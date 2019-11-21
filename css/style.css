@@ -4,8 +4,10 @@
 }
 
 body {
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 15px;
+    color: gray;
 }
 
 .carousel-item {
@@ -56,6 +58,7 @@ footer{
 
 .sociais{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .horizontal_dotted_line{
@@ -70,3 +73,33 @@ footer{
     margin-bottom: 75px;
 }
 
+.imgproduto{
+    width: 545px;
+    height: 359px;    
+}
+
+.produtobox{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.atendimento{
+    margin-bottom: 50px;
+}
+
+.pricequant{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.textoproduto{
+    padding: 40px;
+    color: gray;
+}
+
+.horizontal_dotted_line{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}

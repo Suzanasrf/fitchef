@@ -1,4 +1,62 @@
 
+<div class="horizontal_dotted_line"></div>
+
+<div class="container sociais">
+  <div class="row">
+
+    <div class="col-sm-6">
+      <div class="container ">
+
+      <h2 class="atendimento"> Central de atendimento </h2>
+        <div class="row">
+          
+          
+          <div class="col-sm-4 ">
+            <i class="far fa-envelope fa-3x"></i>
+            <p>Nos mande um email:<br>
+              fitchef@email.com</p>
+
+          </div>
+          <div class="col-sm-4 ">
+            <i class="fas fa-phone-alt fa-3x"></i>
+            <p>Ligue para nós<br>
+              (21)666-420-666</p>
+          </div>
+          <div class="col-sm-4 ">
+            <i class="fab fa-whatsapp fa-3x"></i>
+            <p>Chama no zap bb <br>
+              (21)666-420-666</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6">
+      <div class="container">
+  
+      <h2 class="atendimento"> Redes Sociais </h2>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <i class="fab fa-instagram fa-3x"></i>
+
+
+          </div>
+          <div class="col-sm-6">
+          <i class="fab fa-facebook-square fa-3x"></i>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
 <footer class="page-footer font-small special-color-dark pt-4">
 
   <!-- Footer Elements -->

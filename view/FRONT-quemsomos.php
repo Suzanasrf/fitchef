@@ -19,9 +19,6 @@
     </section>
 </div>
 
-<br>
-<br>
-<br>
 
 
 <?php include "FRONT-footer.php" ?>
