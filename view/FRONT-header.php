@@ -52,6 +52,10 @@
             <a class="nav-link" href="FRONT-logincadastro.php"><i class="fas fa-user-circle fa-2x"></i></a>
           </li>
 
+          <li class="nav-item px-3 ml-3">
+            <a class="nav-link" href="FRONT-logincadastro.php"><i class="fas fa-shopping-cart fa-2x"></i></a>
+          </li>
+
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Buscar no site" aria-label="Search">
