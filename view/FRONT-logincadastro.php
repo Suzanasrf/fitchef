@@ -81,7 +81,7 @@
 			<div class="form-group">
 			  <label class="col-md-4 control-label" for="btnregister"></label>
 			  <div class="col-md-9">
-			    <button id="btnregister" name="btnregister" class="btn btn-success">Cadastrar</button>
+			    <button id="btnregister" name="btnregister" class="btn btn-warning">Cadastrar</button>
 			  </div>
 			</div>
 
@@ -119,7 +119,7 @@
 			<div class="form-group">
 			  <label class="col-md-4 control-label" for="btnregister"></label>
 			  <div class="col-md-9">
-			    <button id="btnregister" name="btnregister" class="btn btn-primary">Entrar</button>
+			    <button id="btnregister" name="btnregister" class="btn btn-warning">Entrar</button>
 			  </div>
 			
 			</div>
@@ -131,3 +131,4 @@
 	</div>
 
 </div>
+<?php include "FRONT-footer.php" ?>

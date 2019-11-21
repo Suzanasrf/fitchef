@@ -35,12 +35,12 @@ body {
 }
 
 
-
-
 .rodape{
     background-color:  #93367C ;
     color: silver;
-    height: 300px ;
+    min-height: 300px;
+    padding-bottom: 10px;
+    
 }
 
 .titulo-quemsomos{

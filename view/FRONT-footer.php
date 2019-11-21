@@ -1,3 +1,4 @@
+<!-- outra coisa -->
 <div class="rodape">
 <div class="horizontal_dotted_line"></div>
 
