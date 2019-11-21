@@ -1,4 +1,4 @@
-<?php 
+<?php
     session_start();
     require "includes/autoload.php";
     //capturando os dados da URL
@@ -19,6 +19,7 @@
         // 2. criar a actions/produto-listar.php
         // 3. verificar se em produto.dao possui a função de listar
 
+        
         case 'clientecadastrar':
             
             $obj = new \FITCHEF\API\ClienteCadastrar;
@@ -127,11 +128,44 @@
             break;     
      
  
-        case 'home':
-            $view = "home.php";
+        case 'inicio':
+            $view = "FRONT-inicio.php";
             break;            
-    
+
+             
+        case 'meuprato':
+            $view = "FRONT-seupedido.php";
+            break; 
+            
+        case 'cardapio':
+            $view = "FRONT-cardapio.php";
+        break;
+        
+        case 'quemsomos':
+            $view = "FRONT-quemsomos.php";
+        break;
+
+        case 'contato':
+            $view ="FRONT-contato.php";
+        break;
        
+        case 'login':
+            $view ="FRONT-logincadastro.php";
+        break;
+
+        case 'carrinho':
+            $view ="FRONT-carrinho.php";
+        break;
+
+        case 'produto':
+            $view ="FRONT-produto.php";
+        break;
+
+        case 'ingrediente':
+            $view ="FRONT-ingrediente.php";
+        break;
+
+
         default:
             $view = "home.php";
         break; 

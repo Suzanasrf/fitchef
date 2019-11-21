@@ -11,7 +11,7 @@
 <div class="container boxingrediente">
 	<div class="row">
 		<div class="product-img col-sm-6">
-			<img src="../img/frango.jpg" alt="ingrediente1" width="450px" height="370px;">
+			<img src="<?php echo $url; ?>/img/frango.jpg" alt="ingrediente1" width="450px" height="370px;">
 		</div>
 		
 		<div class="product-description col-sm-6">

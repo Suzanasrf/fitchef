@@ -123,11 +123,6 @@ body {
    
 }
 
-.rowcarrinho col{
-    border: 1px solid silver;
-    margin-left: 0px;
-    margin-left: 0px;
-}
 
 .cardapiotitulo{
     margin-top: 100px;
@@ -147,6 +142,7 @@ body {
 
 .boxingrediente{
     margin-bottom: 100px;
+    margin-top: 30px;
     
 }
 
@@ -159,12 +155,40 @@ body {
 
 .titulofaixa{
     margin-top: 90px;
-    margin-bottom: 30px;
+    
     text-align: center;
     font-size: xx-large;
 
 }
 
+.sectiongray{
+    background-color: silver;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 500px;
+    margin-bottom: -100px;
+}
 
+.carrintable{
+    background-color: white;
+    padding: 20px;
+    min-height: 500px;
+}
 
+.sobremesa{
+    margin-top: 50px;
+}
+.pratos{
+    margin-top: 50px;
+}
 
+.faixasobremesa{
+    margin-top: 50px;
+    
+    text-align: center;
+    font-size: xx-large;
+}
+.ingredientes{
+    margin-top: 50px;
+
+}

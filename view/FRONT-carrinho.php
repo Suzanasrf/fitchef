@@ -1,24 +1,40 @@
 <?php include "FRONT-header.php" ?>
 
-<div class="container carrinhobox">
-
-    <div class="card">
-        <div class="card-body">
-            Meu carrinho
-        </div>
-    </div>
-    <div class="row rowcarrinho">
-
-        <div class="col-sm-8">
-            Uma de três colunas
-        </div>
-
-        <div class="col-sm-4">
-            Uma de três colunas
-        </div>
-
+<div class="card titulofaixa">
+    <div class="card-body">
+        Meu carrinho
     </div>
 </div>
+</div>
+<div class="sectiongray">
+    <div class="container">
+        <div class="carrintable">
+
+            <div class="row">
+
+                <div class="col-sm-8">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                produto
+                            </div>
+                            <div class="col-sm-3">
+                                quantidade
+                            </div>
+                            <div class="col-sm-3">
+                                preço
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    Uma de três colunas
+                </div>
+
+            </div>
+        </div>
+    </div>
 </div>
 
 

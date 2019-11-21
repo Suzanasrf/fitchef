@@ -6,8 +6,8 @@
   <title>Fit Chef - Início</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="../fontawesome/css/all.css">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="<?php echo $url; ?>/fontawesome/css/all.css">
+  <link rel="stylesheet" href="<?php echo $url; ?>/css/style.css">
 </head>
 
 <body>
@@ -23,37 +23,37 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
         <div class="logo">
-          <a class="nav-link" href="FRONT-inicio.php"><img id="logo" src="../img/logo.png" alt="LOGO"></a>
+          <a class="nav-link" href="FRONT-inicio.php"><img id="logo" src="<?php echo $url; ?>/img/logo.png" alt="LOGO"></a>
         </div>
 
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
           <li class="nav-item px-3">
-            <a class="nav-link" href="FRONT-inicio.php">Início</a>
+            <a class="nav-link" href="<?php echo $url; ?>/inicio">Início</a>
           </li>
 
           <li class="nav-item px-3">
-            <a class="nav-link" href="FRONT-seupedido.php">Monte seu prato</a>
+            <a class="nav-link" href="<?php echo $url; ?>/meuprato">Monte seu prato</a>
           </li>
 
           <li class="nav-item px-3">
-            <a class="nav-link" href="FRONT-cardapio.php">Cardápio da Semana</a>
+            <a class="nav-link" href="<?php echo $url; ?>/cardapio">Cardápio da Semana</a>
           </li>
 
           <li class="nav-item px-3">
-            <a class="nav-link" href="FRONT-quemsomos.php">Quem somos</a>
+            <a class="nav-link" href="<?php echo $url; ?>/quemsomos">Quem somos</a>
           </li>
 
           <li class="nav-item px-3">
-            <a class="nav-link" href="FRONT-contato.php">Contato</a>
+            <a class="nav-link" href="<?php echo $url; ?>/contato">Contato</a>
           </li>
 
           <li class="nav-item px-3 ml-3">
-            <a class="nav-link" href="FRONT-logincadastro.php"><i class="fas fa-user-circle fa-2x"></i></a>
+            <a class="nav-link" href="<?php echo $url; ?>/login"><i class="fas fa-user-circle fa-2x"></i></a>
           </li>
 
           <li class="nav-item px-3 ml-3">
-            <a class="nav-link" href="FRONT-logincadastro.php"><i class="fas fa-shopping-cart fa-2x"></i></a>
+            <a class="nav-link" href="<?php echo $url; ?>/carrinho"><i class="fas fa-shopping-cart fa-2x"></i></a>
           </li>
 
         </ul>

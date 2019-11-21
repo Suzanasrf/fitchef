@@ -7,7 +7,7 @@
 <div class="container produtobox">
   <div class="row">
     <div class="col-sm-6">
-      <img class="imgproduto" src="../img/lasanha.jpg">
+      <img class="imgproduto" src="<?php echo $url; ?>/img/lasanha.jpg">
     </div>
     <div class="col-sm-6">
       <h2>Lasanha Fitchef</h2>
