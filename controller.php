@@ -161,10 +161,53 @@
             $view ="FRONT-produto.php";
         break;
 
-        case 'ingrediente':
-            $view ="FRONT-ingrediente.php";
+        case 'frango':
+            $view ="FRONT-ingrediente-frango.php";
+        break;
+            
+        case 'batatadoce':
+            $view ="FRONT-ingrediente-batatadoce.php";
         break;
 
+        case 'salmaoi':
+            $view ="FRONT-ingrediente-salmaoi.php";
+        break;
+            
+        case 'arroz':
+            $view ="FRONT-ingrediente-arroz.php";
+        break;
+    
+        case 'bife':
+            $view ="FRONT-ingrediente-bife.php";
+        break;
+            
+        case 'feijao':
+            $view ="FRONT-ingrediente-feijao.php";
+        break;
+            
+        case 'salada':
+            $view ="FRONT-ingrediente-salada.php";
+        break;
+        
+        case 'puredebatata':
+            $view ="FRONT-ingrediente-puredebatata.php";
+        break;
+            
+        case 'ovos':
+            $view ="FRONT-ingrediente-ovos.php";
+        break;
+        
+        case 'macarrao':
+            $view ="FRONT-ingrediente-macarrao.php";
+        break;
+            
+        case 'brocolis':
+            $view ="FRONT-ingrediente-brocolis.php";
+        break;
+            
+        case 'areia':
+            $view ="FRONT-ingrediente-areia.php";
+        break;
 
         default:
             $view = "home.php";

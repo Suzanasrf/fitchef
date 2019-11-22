@@ -23,7 +23,7 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
         <div class="logo">
-          <a class="nav-link" href="FRONT-inicio.php"><img id="logo" src="<?php echo $url; ?>/img/logo.png" alt="LOGO"></a>
+          <a class="nav-link" href="<?php echo $url; ?>/inicio"><img id="logo" src="<?php echo $url; ?>/img/logo.png" alt="LOGO"></a>
         </div>
 
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
