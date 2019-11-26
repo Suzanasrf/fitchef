@@ -1,6 +1,7 @@
 <?php
-    session_start();
     require "includes/autoload.php";
+    session_start();
+   
     //capturando os dados da URL
     // ex.:admin/departamento/cadastrar/listar
     // model=departamento & action = listar
@@ -129,17 +130,27 @@
      
  
         case 'inicio':
+            $obj = new \FITCHEF\API\ProdutoListarHome;
+            $lista = $obj->lista;
             $view = "FRONT-inicio.php";
             break;            
 
+
+
              
-        case 'meuprato':
-            $view = "FRONT-seupedido.php";
+        case 'porcoes':
+            $obj = new \FITCHEF\API\ProdutoListarPorcoes;
+            $lista = $obj->lista;
+            $view = "FRONT-porcoes.php";
             break; 
             
         case 'cardapio':
+            $obj = new \FITCHEF\API\ProdutoListarHome;
+            $lista = $obj->lista;
+            $lista2 = $obj->lista2;
             $view = "FRONT-cardapio.php";
         break;
+
         
         case 'quemsomos':
             $view = "FRONT-quemsomos.php";
@@ -157,57 +168,29 @@
             $view ="FRONT-carrinho.php";
         break;
 
-        case 'produto':
-            $view ="FRONT-produto.php";
+        case 'produtodetalhes':
+            $obj = new \FITCHEF\API\ProdutoVisualizar;
+            $produto = $obj->dados;
+            $view = "visualiza-produto.php";
         break;
 
-        case 'frango':
-            $view ="FRONT-ingrediente-frango.php";
-        break;
-            
-        case 'batatadoce':
-            $view ="FRONT-ingrediente-batatadoce.php";
+        case 'carrinhoadicionar':
+
+            $obj = new \FITCHEF\API\CarrinhoVisualizar;
+
+            $lista = $obj->lista;
+            $view = "FRONT-carrinho.php";
         break;
 
-        case 'salmaoi':
-            $view ="FRONT-ingrediente-salmaoi.php";
+        case 'carrinhoremover':
+
+            $obj = new \LOJA\API\CarrinhoRemover;
+
+            $lista = $obj->lista;
+            $view = "FRONT-carrinho.php";
         break;
-            
-        case 'arroz':
-            $view ="FRONT-ingrediente-arroz.php";
-        break;
-    
-        case 'bife':
-            $view ="FRONT-ingrediente-bife.php";
-        break;
-            
-        case 'feijao':
-            $view ="FRONT-ingrediente-feijao.php";
-        break;
-            
-        case 'salada':
-            $view ="FRONT-ingrediente-salada.php";
-        break;
-        
-        case 'puredebatata':
-            $view ="FRONT-ingrediente-puredebatata.php";
-        break;
-            
-        case 'ovos':
-            $view ="FRONT-ingrediente-ovos.php";
-        break;
-        
-        case 'macarrao':
-            $view ="FRONT-ingrediente-macarrao.php";
-        break;
-            
-        case 'brocolis':
-            $view ="FRONT-ingrediente-brocolis.php";
-        break;
-            
-        case 'areia':
-            $view ="FRONT-ingrediente-areia.php";
-        break;
+
+
 
         default:
             $view = "home.php";
@@ -216,5 +199,7 @@
 
  
     include "view/{$view}";
+
   
 ?>
+

@@ -33,7 +33,7 @@
           </li>
 
           <li class="nav-item px-3">
-            <a class="nav-link" href="<?php echo $url; ?>/meuprato">Monte seu prato</a>
+            <a class="nav-link" href="<?php echo $url; ?>/porcoes">Monte seu prato</a>
           </li>
 
           <li class="nav-item px-3">

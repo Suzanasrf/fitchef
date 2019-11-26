@@ -9,12 +9,60 @@
 <div class="sectiongray">
     <div class="container">
         <div class="carrintable">
+        
+        <div class="row">
+        
+    <?php
+        @$carrinho = $_SESSION['carrinho'];
 
+        if($carrinho===null || empty($carrinho->getItems())){
+            // Inicio HTML
+            ?>
+                <p>Seu Carrinho está vazio</p>
+
+            <?php
+            // Fim HTML
+        }else{
+
+            foreach ($carrinho->getItems() as $item){
+                $produto = $item->getProduto();
+                $link = "http://localhost/fitchef/carrinho/remover/".$produto->getId();
+             
+                // Inicio HTML
+            ?>
+
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-2"><img width="100%" src="<?php echo $url.'/View/img/produtos/'.$produto->getImagem(); ?>"></div>
+                        <div class="col-md-10">
+                        <p><?php echo $produto->getNome(); ?></p>
+                        <a href="<?php echo $link; ?>" class="btn btn-danger">Remover</a>
+                        
+                        </div>
+                    </div>
+                </div>
+
+     <?php   
+     // Fim HTML
+            }
+        }
+    ?>
+
+</div>
+
+
+
+               
+        
+        
+        
+        <!--
+         
             <div class="row">
 
                 <div class="col-sm-8">
-                    <div class="container">
-                        <div class="row">
+                    <div class="container ">
+                        <div class="row carrincontainer">
                             <div class="col-sm-6">
                                 produto
                             </div>
@@ -27,12 +75,24 @@
                         </div>
                     </div>
                 </div>
+  -->
 
-                <div class="col-sm-4">
-                    Uma de três colunas
+                <div class="col-sm-4 fretecontainer">
+                <i class="fas fa-truck fa-3x"></i>
+
+                <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="0000-000" aria-label="0000-000"
+                  aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button">Calcular Frete</button>
                 </div>
+              </div>
+                </div>
+                
 
             </div>
+
+            
         </div>
     </div>
 </div>

@@ -32,16 +32,21 @@ use FITCHEF\Model\Produto;
         public function buscaPorId($id){
             $sql = "SELECT * FROM produto WHERE pk_produto = :id";
             $con = Conexao::getInstance()->prepare($sql);
-            $con->bindValue(":id",$id);
+            $con->bindValue(":id", $id);
             $con->execute();
-
-            $produto = new produto();
-            $produto = $con->fetch(\PDO::FETCH_ASSOC);
-            
-            return  $produto;
-
-
+    
+            $obj = $con->fetch(\PDO::FETCH_ASSOC);
+           
+            $produto = new Produto();
+            $produto->setId($obj['pk_produto']);
+            $produto->setNome($obj['nome']);
+            $produto->setPreco($obj['preco']);
+            $produto->setImagem($obj['imagem']);
+    
+            return $produto;
         }
+
+        
 
         public function listaProduto(){
 
@@ -71,6 +76,34 @@ use FITCHEF\Model\Produto;
 
             return $lista;
         }
+    
+
+    public function listaProdutoPorDepartamento($id){
+
+        $sql = "SELECT 
+        produto.nome,
+        produto.preco,
+        produto.imagem,
+        produto.descricao,
+        produto.pk_produto as 'id'
+        
+        
+        FROM produto WHERE fk_departamento_produto =:id";
+
+
+        $con = conexao::getInstance()->prepare($sql);
+        $con->bindValue(":id", $id);
+        $con->execute();
+
+        $lista = array();
+
+        while($produto = $con->fetch(\PDO::FETCH_ASSOC)) {
+            $lista[] = $produto;
+        }
+
+        return $lista;
     }
+}
+
 
 ?>

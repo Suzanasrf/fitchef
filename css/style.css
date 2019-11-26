@@ -162,7 +162,7 @@ body {
 }
 
 .sectiongray{
-    background-color: silver;
+    background-color: rgb(231, 231, 231);
     padding-top: 20px;
     padding-bottom: 20px;
     min-height: 500px;
@@ -171,7 +171,8 @@ body {
 
 .carrintable{
     background-color: white;
-    padding: 20px;
+    padding: 30px;
+  
     min-height: 500px;
 }
 
@@ -190,5 +191,65 @@ body {
 }
 .ingredientes{
     margin-top: 50px;
+    
+}
+
+.porcoes{
+    padding: 20px;
+}
+
+
+.carrincontainer{
+    height: 300px;
+    border: solid 1px silver;
+}
+
+.fretecontainer{
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.fa-truck{
+    padding: 10px;
+}
+
+.login-detalhes{
+    max-width: 400px;
+    text-align: center;
+    height: 350px;
+    padding-top:20px;
+    padding-left:30px;
+    
+    color:silver;
+    border-radius:170px;
+    margin-right:80px;
+    
+}   
+
+.login{
+    margin-top: 150px;
+}
+
+
+
+.forget{
+    color:aquamarine;
+    text-decoration:none;
+    font-weight:lighter;
+}
+
+.forget:hover{
+    text-shadow: 1px 1px 2px black; 
+    text-decoration: none;
+}
+
+.cadastro-detalhes{
+    max-width: 500px;
+    text-align: center;
+   
+    color:silver;
+    border-radius:40px;
+    margin-left:80px;
 
 }
