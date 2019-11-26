@@ -58,3 +58,5 @@ class Carrinho{
 		$this->lista = $lista;
 	}
 }
+
+?>
