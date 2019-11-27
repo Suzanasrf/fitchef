@@ -1,7 +1,7 @@
 <?php require_once "FRONT-header.php" ?>
 
 <div class="card titulofaixa">
-      <div class="card-body">
+      <div class="card-body titulo">
         Porções
       </div>
     </div>
@@ -11,11 +11,11 @@
 <div class="container boxingrediente">
 	<div class="row">
 		<div class="product-img col-sm-6">
-			<img src="<?php echo $url; ?>/img/bife.png" alt="frango" width="450px" height="370px;">
+			<img src="<?php echo $url; ?>/img/arroz.jpg" alt="arroz" width="450px" height="370px;">
 		</div>
 		
 		<div class="product-description col-sm-6">
-			<h2>Bife - 100g</h2>
+			<h2>Arroz - 100g</h2>
 			<p><strong>Quantidade por 100 gramas:</strong><br>
 				Valor energético	159.2kcal	<br>
                 Proteínas	32,0g	<br>
@@ -41,7 +41,7 @@
 			  <label>Quantidade:</label>     
 			  <input id="quant" name="quant" class="text" size="1" type="number" value="1" maxlength="5" />
 			</div>
-			<button type="button" class="btn btn-warning">Comprar</button>
+			<button type="button" class="btn">Comprar</button>
 			</div>
 			
 		</div>

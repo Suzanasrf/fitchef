@@ -60,7 +60,7 @@
 
   <br>
   <br>
-  <button type="button" class="btn btn-warning">Saiba mais</button>
+  <button type="button" class="btn">Saiba mais</button>
 
 </div>
 
@@ -89,7 +89,7 @@
           <h5 class="card-title"><?php echo $produto ['nome'] ?></h5>
           <p class="card-text"><?php echo $produto ['descricao'] ?></p>
         </div> </a>
-        <a href="#" class="btn btn-warning">Comprar</a>
+        <a href="<?php echo $url; ?>/carrinho/adicionar/<?php echo $produto['id'] ?>" class="btn">Comprar</a>
       </div>
     </div>
 

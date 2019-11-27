@@ -2,9 +2,9 @@
 
 <br><br><br><br><br><br>
 
-<div class="container">
+<div class="container quemsomos">
 
-    <section class="quemsomos">
+    <section>
 
        <h1 class="titulo-quemsomos">Quem somos:</h1>
         <br>

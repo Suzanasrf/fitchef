@@ -1,7 +1,7 @@
 <?php include "FRONT-header.php" ?>
 
 <div class="card titulofaixa">
-    <div class="card-body">
+    <div class="card-body titulo">
         Meu carrinho
     </div>
 </div>
@@ -18,7 +18,7 @@
         if($carrinho===null || empty($carrinho->getItems())){
             // Inicio HTML
             ?>
-                <p>Seu Carrinho está vazio</p>
+                <?php include "FRONT-carrinhovazio.php" ?>
 
             <?php
             // Fim HTML
@@ -31,12 +31,12 @@
                 // Inicio HTML
             ?>
 
-                <div class="col-md-8">
+                <div class="col-sm-8">
                     <div class="row">
                         <div class="col-md-2"><img width="100%" src="<?php echo $url.'/View/img/produtos/'.$produto->getImagem(); ?>"></div>
                         <div class="col-md-10">
                         <p><?php echo $produto->getNome(); ?></p>
-                        <a href="<?php echo $link; ?>" class="btn btn-danger">Remover</a>
+                        <a href="<?php echo $url; ?>/carrinho/remover/<?php echo $produto->getId() ?>" class="btn">Remover</a>
                         
                         </div>
                     </div>
@@ -48,7 +48,7 @@
         }
     ?>
 
-</div>
+
 
 
 
@@ -96,7 +96,7 @@
         </div>
     </div>
 </div>
-
+    </div>
 
 
 

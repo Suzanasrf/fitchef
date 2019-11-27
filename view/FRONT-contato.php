@@ -1,7 +1,7 @@
 <?php require_once "FRONT-header.php" ?>
-<br><br><br><br><br><br>
 
-<div class="container">
+
+<div class="container contatolocal">
     <div class="row">
     <div class="col-sm-6 contato">
     

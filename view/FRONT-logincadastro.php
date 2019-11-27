@@ -1,6 +1,6 @@
 <?php require_once "FRONT-header.php"; ?>
 
-
+<div class="sectiongray">
 <div class="container login">
 
 	<div class="row">
@@ -34,7 +34,7 @@
 			<div class="form-group">
 			  <label class="col-md-4 control-label" for="btnregister"></label>
 			  <div class="col-md-9">
-			    <button id="btnregister" name="btnregister" class="btn btn-warning">Entrar</button>
+			    <button id="btnregister" name="btnregister" class="btn">Entrar</button>
 			  </div>
 			
 			</div>
@@ -44,7 +44,7 @@
 		</div>
 
 
-	<div class="col-sm-6 cadastro-detalhes">
+	<div class="col-sm-6 login-detalhes">
 
 			<form class="form-horizontal">
 			<fieldset>
@@ -118,7 +118,7 @@
 			<div class="form-group">
 			  <label class="col-md-4 control-label" for="btnregister"></label>
 			  <div class="col-md-9">
-			    <button id="btnregister" name="btnregister" class="btn btn-warning">Cadastrar</button>
+			    <button id="btnregister" name="btnregister" class="btn">Cadastrar</button>
 			  </div>
 			</div>
 
@@ -129,6 +129,7 @@
 			</div>
 			</div>
 
+</div>
 </div>
 </div>
 <?php include "FRONT-footer.php" ?>

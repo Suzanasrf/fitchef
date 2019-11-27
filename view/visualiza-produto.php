@@ -1,20 +1,22 @@
+
 <?php include "FRONT-header.php" ?>
+
 <div class="card titulofaixa">
-      <div class="card-body">
+      <div class="card-body titulo">
         Prato fitchef
       </div>
     </div>
 <div class="container produtobox">
   <div class="row">
     <div class="col-sm-6">
-      <img class="imgproduto" src="<?php echo $url; ?>/View/img/produtos/<?php echo $produto['imagem'] ?>">
+      <img class="imgproduto" src="<?php echo $url; ?>/View/img/produtos/<?php echo $produto->getImagem(); ?>">
     </div>
     <div class="col-sm-6">
-      <h2><?php echo $produto['nome']; ?></h2>
+      <h2><?php echo $produto->getNome(); ?></h2>
 
       <a href="#"> Adicionar ao carrinho </a>
       <br><br>
-      <p><?php echo $produto['nome']; ?></p>
+      <p></p>
 
       <hr style="border:1px dashed gray;">
       <p> As porções são individuais. Clique em + para adicionar.
@@ -36,7 +38,7 @@
 
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
   Adicionar ao carrinho
 </button>
 
@@ -101,7 +103,7 @@
     </div>
     <div class="textoproduto">
     <div>
-    <p><?php echo $produto['descricao']; ?></p>
+    <p><?php echo $produto->getDescricao(); ?></p>
     </div>
  
 

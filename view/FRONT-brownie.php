@@ -34,7 +34,7 @@
 			  <label>Quantidade:</label>     
 			  <input id="quant" name="quant" class="text" size="1" type="number" value="1" maxlength="5" />
 			</div>
-			<button type="button" class="btn btn-warning">Comprar</button>
+			<button type="button" class="btn btn">Comprar</button>
 			</div>
 			
 		</div>

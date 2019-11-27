@@ -80,7 +80,7 @@
             $lista = $obj->lista;
             $view = "lista-produto.php";
             break;
-
+            
         case 'produtovisualizar':
 
             $obj = new \FITCHEF\API\ProdutoVisualizar;
@@ -171,6 +171,7 @@
         case 'produtodetalhes':
             $obj = new \FITCHEF\API\ProdutoVisualizar;
             $produto = $obj->dados;
+            
             $view = "visualiza-produto.php";
         break;
 
@@ -183,10 +184,9 @@
         break;
 
         case 'carrinhoremover':
-
-            $obj = new \LOJA\API\CarrinhoRemover;
-
-            $lista = $obj->lista;
+        
+            $obj = new \FITCHEF\API\CarrinhoRemover;
+           
             $view = "FRONT-carrinho.php";
         break;
 

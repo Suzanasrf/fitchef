@@ -3,7 +3,7 @@
 
 
 <div class="card titulofaixa">
-      <div class="card-body">
+      <div class="card-body titulo">
         Cardapio da semana
       </div>
     </div>
@@ -20,7 +20,7 @@
           <h5 class="card-title"><?php echo $produto ['nome'] ?></h5>
           <p class="card-text"><?php echo $produto ['descricao'] ?></p>
         </div> </a>
-        <a href="#" class="btn btn-warning">Comprar</a>
+        <a href="<?php echo $url; ?>/carrinho/adicionar/<?php echo $produto['id'] ?>" class="btn">Comprar</a>
       </div>
     </div>
 
@@ -30,7 +30,7 @@
 </div>
 
 <div class="card faixasobremesa">
-      <div class="card-body">
+      <div class="card-body titulo">
         Sobremesas
       </div>
     </div>
@@ -46,7 +46,7 @@
           <h5 class="card-title"><?php echo $produto ['nome'] ?></h5>
           <p class="card-text"><?php echo $produto ['descricao'] ?></p>
         </div> </a>
-        <a href="#" class="btn btn-warning">Comprar</a>
+        <a href="<?php echo $url; ?>/carrinho/adicionar/<?php echo $produto['id'] ?>" class="btn">Comprar</a>
       </div>
     </div>
 

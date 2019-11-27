@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="barranav">
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark barra">
     
