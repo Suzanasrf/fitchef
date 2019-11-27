@@ -32,7 +32,7 @@
                 <div>
                     <div class="row">
 
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 tabelacarrinho">
                         <p><?php echo $produto->getNome(); ?></p>
                         
                         </div>
@@ -44,12 +44,12 @@
 
                         </div>
 
-                        <div class="col-sm-3">
-                        <p><?php echo $produto->getPreco(); ?></p>
+                        <div class="col-sm-3 tabelacarrinho">
+                        <p><?php echo $produto->getDescricao(); ?></p>
                         
                         </div>
 
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 tabelacarrinho">
                         
                         <a href="<?php echo $url; ?>/carrinho/remover/<?php echo $produto->getId() ?>" class="btn">Remover</a>
                         </div>
