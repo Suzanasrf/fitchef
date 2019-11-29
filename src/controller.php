@@ -11,7 +11,7 @@
     $view = "";
 
     //CONFIG
-    $url = "http://localhost/fitchef";
+    $url = "http://localhost/fitchef/src";
 
     switch($router){
 

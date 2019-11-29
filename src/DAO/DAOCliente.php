@@ -26,7 +26,13 @@ use FITCHEF\Model\Cliente;
             
             return "Cadastrado com sucesso";
         }
-  
+        
+        public function deleteAll(){
+            $sql = "DELETE from cliente";
+            $con = Conexao::getInstance()->prepare($sql);
+            $con->execute();
+            return "todos excluídos com sucesso";
+        }
 
 
         public function listaClientes(){
