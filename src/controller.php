@@ -179,7 +179,6 @@
 
             $obj = new \FITCHEF\API\CarrinhoVisualizar;
 
-            $lista = $obj->lista;
             $view = "FRONT-carrinho.php";
         break;
 

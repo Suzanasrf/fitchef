@@ -14,6 +14,8 @@ class Departamento{
         return $this->id;
     }
     public function setId($id){
+        if($id==="") throw new \Exception('Id Inválido');
+        
         $this->id = $id;
     }
     
@@ -22,7 +24,9 @@ class Departamento{
     }
     
     public function setNome($nome){
-        $this->nome = $nome;
+        if($nome==="") throw new \Exception('Nome Inválido');
+        
+            $this->nome = $nome;   
     }
 }
     ?>

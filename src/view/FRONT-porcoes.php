@@ -8,10 +8,10 @@
 
 
 <div class="container ingredientes">
-  <div class="row porcoes">
+  <div class="row">
 
   <?php foreach($lista as $produto) { ?>
-  <div class="col-sm-3">
+  <div class="col-sm-3 porcoes">
       <div class="card" style="width: 15rem; height: 20rem;">
       <a href="<?php echo $url; ?>/produto/detalhes/<?php echo $produto['id'] ?>" class="prato-feito-opcao"> <img src="<?php echo $url; ?>/View/img/produtos/<?php echo $produto['imagem'] ?>" class="card-img-top" alt="...">
          <div class="card-body">

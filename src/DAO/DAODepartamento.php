@@ -34,6 +34,13 @@ use FITCHEF\Model\Departamento;
 
         }
 
+        public function deleteAll(){
+            $sql = "DELETE from departamento";
+            $con = Conexao::getInstance()->prepare($sql);
+            $con->execute();
+            return "todos excluídos com sucesso";
+        }
+
         public function listaDepartamento(){
 
             $sql = "SELECT * FROM departamento";

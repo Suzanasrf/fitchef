@@ -33,9 +33,9 @@
               <p>Quantidade:</p>
             </div>
             <div class="col-sm-4">
-<button class="btn">
-  Adicionar ao carrinho
-</button>
+  
+
+            <a href="<?php echo $url; ?>/carrinho/adicionar/<?php echo $produto->getId(); ?>" class="btn">Comprar</a>
 </div>
 
 
